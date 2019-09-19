@@ -1,0 +1,10 @@
+body {  
+    background-image: url('../static/template.png');
+    background-size: 800px 500px;
+    background-repeat: no-repeat;
+    background-position: center -30%;
+}
+.pokemon {
+    height: 300px;
+    width: 300px;
+}
