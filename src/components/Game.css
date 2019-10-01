@@ -1,10 +1,20 @@
-body {  
-    background-image: url('../static/template.png');
-    background-size: 800px 500px;
-    background-repeat: no-repeat;
-    background-position: center -30%;
-}
 .pokemon {
     height: 300px;
     width: 300px;
+}
+.pokemonHidden {
+    height: 300px;
+    width: 300px;
+    -webkit-filter: brightness(0%); /* Safari 6.0 - 9.0 */
+    filter: brightness(0%);
+}
+.pokeball {
+    height: 30px;
+    width: 30px;
+}
+.pokemonGuessGrid {
+    margin-top: 220px !important;
+}
+.inputs {
+    margin-left: 50px !important;
 }
